@@ -1,0 +1,5 @@
+---
+# Kept in sync with the Dockerfile by .github/scripts/update.sh
+build_from:
+  aarch64: nightscout/cgm-remote-monitor:15.0.9
+  amd64: nightscout/cgm-remote-monitor:15.0.9

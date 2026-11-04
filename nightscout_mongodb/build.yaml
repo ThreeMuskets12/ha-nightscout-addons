@@ -1,0 +1,5 @@
+---
+# Kept in sync with the Dockerfile by .github/scripts/update.sh
+build_from:
+  aarch64: mongo:7.0.45
+  amd64: mongo:7.0.45

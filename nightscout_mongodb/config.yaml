@@ -1,0 +1,16 @@
+---
+name: Nightscout MongoDB
+version: "7.0.45-1"
+slug: nightscout_mongodb
+description: MongoDB 7.0 for Nightscout (internal only, no host ports)
+url: https://github.com/ThreeMuskets12/ha-nightscout-addons/tree/main/nightscout_mongodb
+image: ghcr.io/threemuskets12/{arch}-addon-nightscout_mongodb
+arch:
+  - aarch64
+  - amd64
+startup: system
+init: false
+options:
+  root_password: ""
+schema:
+  root_password: password

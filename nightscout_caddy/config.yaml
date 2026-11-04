@@ -1,0 +1,23 @@
+---
+name: Nightscout HTTPS (Caddy)
+version: "2.11-1"
+slug: nightscout_caddy
+description: HTTPS for Nightscout via Let's Encrypt DNS-01 (Cloudflare), proxies to Nightscout only
+url: https://github.com/ThreeMuskets12/ha-nightscout-addons/tree/main/nightscout_caddy
+image: ghcr.io/threemuskets12/{arch}-addon-nightscout_caddy
+arch:
+  - aarch64
+  - amd64
+init: false
+ports:
+  443/tcp: 443
+ports_description:
+  443/tcp: Nightscout HTTPS
+options:
+  domain: ""
+  upstream: 2e288520-nightscout:1337
+  cf_dns_token: ""
+schema:
+  domain: str
+  upstream: str
+  cf_dns_token: password
