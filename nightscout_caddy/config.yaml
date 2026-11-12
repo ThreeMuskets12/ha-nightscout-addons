@@ -1,6 +1,6 @@
 ---
 name: Nightscout HTTPS (Caddy)
-version: "2.11-1"
+version: "2.11.9-1"
 slug: nightscout_caddy
 description: HTTPS for Nightscout via Let's Encrypt DNS-01 (Cloudflare), proxies to Nightscout only
 url: https://github.com/ThreeMuskets12/ha-nightscout-addons/tree/main/nightscout_caddy

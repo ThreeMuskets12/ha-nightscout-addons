@@ -1,4 +1,4 @@
-ARG MONGO_VERSION=7.0.45
+ARG MONGO_VERSION=7.0.48
 FROM mongo:${MONGO_VERSION}
 COPY run.sh /run.sh
 RUN chmod 755 /run.sh

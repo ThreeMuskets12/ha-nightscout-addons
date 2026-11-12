@@ -1,6 +1,6 @@
 ---
 name: Nightscout MongoDB
-version: "7.0.45-1"
+version: "7.0.48-1"
 slug: nightscout_mongodb
 description: MongoDB 7.0 for Nightscout (internal only, no host ports)
 url: https://github.com/ThreeMuskets12/ha-nightscout-addons/tree/main/nightscout_mongodb

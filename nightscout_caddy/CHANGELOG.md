@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.11.9-1
+
+- Update Caddy to 2.11.9
+
 ## 2.11-1
 
 - First public release in this repository.

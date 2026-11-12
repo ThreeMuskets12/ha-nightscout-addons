@@ -1,5 +1,5 @@
 ---
 # Kept in sync with the Dockerfile by .github/scripts/update.sh
 build_from:
-  aarch64: caddy:2.11
-  amd64: caddy:2.11
+  aarch64: caddy:2.11.9
+  amd64: caddy:2.11.9
