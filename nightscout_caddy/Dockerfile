@@ -1,4 +1,4 @@
-ARG CADDY_VERSION=2.11
+ARG CADDY_VERSION=2.11.9
 FROM caddy:${CADDY_VERSION}-builder AS builder
 RUN xcaddy build --with github.com/caddy-dns/cloudflare
 FROM caddy:${CADDY_VERSION}
